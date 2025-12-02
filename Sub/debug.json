@@ -1,0 +1,10 @@
+{
+    "sites": [
+        {
+            "name": "debug",
+            "type": 3,
+            "api": "csp_debug",
+            "ext": "http://192.168.50.68:5500/test/debug.js"
+        }
+    ]
+}
