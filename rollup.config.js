@@ -12,8 +12,8 @@ export default {
             preventAssignment: true,
             values: {
                 "import { $fetch, jsonify, argsify } from '../utils/utils.js'": '',
-                "import CryptoJS from './crypto-js.js'": 'const CryptoJS = createCryptoJS();',
-                "import cheerio from './cheerio.js'": 'const cheerio = createCheerio();',
+                "import CryptoJS from 'crypto-js'": 'const CryptoJS = createCryptoJS();',
+                "import cheerio from 'cheerio'": 'const cheerio = createCheerio();',
                 'export { getCards, getConfig, getPlayinfo, getTracks, search };': '',
             },
         }),
